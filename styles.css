@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 10000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css grid */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+    padding: 0px 15px;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+    padding: 0px 15px;
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+    padding: 0px 15px;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 0px 15px;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+    padding: 0px 15px;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+    padding: 0px 15px;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    padding: 0px 15px;
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+    padding: 0px 15px;
+}
+
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+    padding: 0px 15px;
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+    padding: 0px 15px;
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+    padding: 0px 15px;
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+    padding: 0px 15px;
+}
+
+/* justify-content */
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+/* align-items */
+
+.align-items-center {
+    align-items: center;
+}
+
+/* text-align-center */ 
+
+.text-align-center {
+    text-align: center;
+}
+
+/* header */
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    padding: 13px 10px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav .navbar-right ul li {
+    margin-right: 38px;
+}
+
+header nav ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #212121;
+}
+
+header nav .navbar-left ul li {
+    margin-left: 30px;
+}
+
+header nav .navbar-left ul li:last-child a {
+    color: #FFFFFF;
+    padding: 7px 15px;
+    background: #F46A35;
+    border: 1px solid #F46A35;
+    border-radius: 10px;
+}
+
+header .header-title {
+    width: 100%;
+    margin: 0px 20px;
+}
+
+header .header-title h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 1.6px;
+    color: #212121;
+}
+
+header .header-title .title-buttons {
+    margin: 23px 0px 63px;
+}
+
+header .header-title .title-buttons .contact {
+    padding: 13px 32px;
+    background: #F46A35;
+    border: 1px solid #F46A35;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+header .header-title .title-buttons .account {
+    padding: 13px 22px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+}
+
+header .header-title .enterprise {
+    width: 500px;
+    padding: 32px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .header-title .enterprise h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    color: #212121;
+}
+
+header .header-title .enterprise p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    color: #212121;
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+
+header .header-title .enterprise a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F46A35;
+}
+
+header .header-bottom {
+    margin-top: 80px;
+    margin-bottom: 208px;
+}
+
+/* Main */
+
+
+main {
+    width: 100%;
+    margin-bottom: 72px;
+}
+
+main h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #212121;
+}
+
+main .mainP {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #212121;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+main .enterprise .corporate-cards h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+}
+
+main .enterprise .corporate-cards p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+main .enterprise .corporate-cards button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 13px 41px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background: transparent;
+}
+
+main .enterprise {
+    position: relative;
+}
+
+main .enterprise .corporate-cards {
+    position: absolute;
+    top: 48px;
+}
+
+main .enterprise .corporate-cards .startup,
+main .enterprise .corporate-cards .global-cards,
+main .enterprise .corporate-cards .button-right {
+    color: #212121;
+}
+
+main .enterprise .corporate-cards .button-right {
+    border: 1px solid #212121;
+}
+
+/* section */
+
+section.flexible {
+    width: 100%;
+    background-color: rgba(249, 249, 249, 1);
+    padding: 95px;
+    padding-bottom: 80px;
+    margin: 0px 33px;
+}
+
+section.flexible h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    letter-spacing: 1.6px;
+    color: #212121;
+}
+
+section.flexible p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #212121;
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+
+section.flexible button {
+    padding: 12px 21px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+    border: 1px solid #212121;
+    border-radius: 10px;
+    background: transparent;
+    margin-bottom: 40px;
+}
+
+section.doordash {
+    width: 100%;
+    padding-top: 251px;
+    padding-bottom: 227px;
+    margin: 0px 33px;
+}
+
+section.doordash img {
+    display: block;
+    margin: auto;
+}
+
+section.doordash .solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 33px;
+}
+
+section.doordash .solution h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #212121;
+}
+
+section.doordash .solution p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #212121;
+}
+
+section.customers {
+    width: 100%;
+    margin: 0px 33px;
+}
+
+section.customers h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #212121;
+    padding-top: 25px;
+    padding-bottom: 79px;
+}
+
+section.customers p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: #212121;
+    margin-top: 26px;
+    margin-bottom: 22px;
+}
+
+section.customers a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F46A35;
+}
+
+section.brands {
+    width: 100%;
+    margin: 81px 34px 161px;
+}
+
+section.brands .images {
+    display: flex;
+}
+
+section.brands img {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+section.brands .images img:nth-child(1) {
+    padding: 75px 29px;
+}
+
+section.brands .images img:nth-child(2) {
+    padding: 75px 30px 75px 28px;
+}
+
+section.brands .images img:nth-child(3) {
+    padding: 75px 101px 75px 99px;
+}
+
+section.brands .images img:nth-child(4) {
+    padding: 75px 83px 75px 82px;
+}
+
+section.contact-sales {
+    width: 100%;
+    padding: 32px 0px;
+    margin: 0px 33px;
+}
+
+section.contact-sales h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 1.6px;
+    color: #212121;
+}
+
+section.contact-sales p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #212121;
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+
+section.contact-sales .firstBtn {
+    padding: 13px 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #F46A35;
+    border: 1px solid #F46A35;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+section.contact-sales .seconBtn {
+    padding: 13px 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+    border: 1px solid #212121;
+    border-radius: 10px;
+    background: transparent;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding: 120px 0px;
+    margin: 0px 33px;
+    background-color: rgba(23, 23, 23, 1);
+}
+
+footer h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+}
+
+footer ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BCBDBD;
+    display: block;
+    margin-top: 10px;
+}
+
+footer .social-media {
+    margin-top: 100px;
+    margin-bottom: 132px;
+}
+
+footer .social-media svg {
+    margin-right: 25px;
+}
+
+footer .social-media svg:nth-child(5) {
+    margin-right: 200px;
+}
+
+.footer-bottom p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+    color: #BCBDBD;
+    margin-bottom: 10px;
+}
